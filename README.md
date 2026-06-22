@@ -3,4 +3,4 @@
 
 
 # -系統架構
-![Uploading image.png…]()
+Hardware/圖片1.png
