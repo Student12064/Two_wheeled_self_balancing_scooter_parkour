@@ -27,7 +27,7 @@
 | :--- | :--- | :--- | :--- |
 | **PA0** | `GPIO_Output` | TB6612 AIN1 | 左輪方向控制 |
 | **PA1** | `GPIO_Output` | TB6612 AIN2 | 左輪方向控制 |
-| **PA5** | `GPIO_Output` | TB6612 STBY | 驅動模組致能 (Standby) |
+| **PA5** | `GPIO_Output` | TB6612 STBY | 驅動模組致能 |
 | **PA6** | `TIM3_CH1` | TB6612 Bureau PWMA | 左輪速度控制 (PWM) |
 | **PA9** | `I2C1_SCL` | MPU-6050 SCL | 姿態感測器時鐘線 |
 | **PA10**| `I2C1_SDA` | MPU-6050 SDA | 姿態感測器數據線 |
