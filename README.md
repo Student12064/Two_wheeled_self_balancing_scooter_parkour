@@ -34,9 +34,10 @@
 | **PC3** | `TRACK_RIGHT` (GPIO_Input)| 右 TCRT OUT | 右紅外線循跡輸入 |
 
 # - 開發環境 -
-  本專案之韌體開發採用官方推薦的經典組合：
-* **組態配置工具**：STM32CubeMX (v6.x 或以上) ── 用於視覺化配置系統時鐘、GPIO、I2C 與 定時器（Timer）。
-* **整合開發環境 (IDE)**：Keil uVision5 (MDK-ARM v5) ── 用於核心 PID 演算法編寫、編譯與硬體模擬。
-* **編譯器韌體庫**：STM32Cube Firmware Package for L4 Series (HAL 庫)
-* **硬體燒錄器**：ST-LINK V2 / V3 (或 J-Link)
+  兩輪自平衡車的開發採用以下軟體以及工具：
+* **配置工具**：STM32CubeMX ── 用於視覺化配置系統時鐘、GPIO、I2C 與 Timer。
+* **整合開發環境**：Keil uVision5  ── 用於核心 PID 演算法編寫、編譯與硬體模擬。
+* **編譯器韌體庫**：STM32Cube Firmware Package (HAL 庫)
+* **硬體燒錄器**：ST-LINK V2 / V3
+
 # - 成果 -
