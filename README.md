@@ -22,4 +22,17 @@
  ### 電路圖
 
 
-# - 硬體清單與電路 -
+# - 引腳配置 -
+| 引腳編號 | CubeMX 標籤 / 功能 | 目標模組與腳位 | 功能描述 |
+| :--- | :--- | :--- | :--- |
+| **PA0** | `GPIO_Output` | TB6612 AIN1 | 左輪方向控制 |
+| **PA1** | `GPIO_Output` | TB6612 AIN2 | 左輪方向控制 |
+| **PA5** | `GPIO_Output` | TB6612 STBY | 驅動模組致能 (Standby) |
+| **PA6** | `TIM3_CH1` | TB6612 Bureau PWMA | 左輪速度控制 (PWM) |
+| **PA9** | `I2C1_SCL` | MPU-6050 SCL | 姿態感測器時鐘線 |
+| **PA10**| `I2C1_SDA` | MPU-6050 SDA | 姿態感測器數據線 |
+| **PA15**| `TIM2_CH1` | TB6612 PWMB | 右輪速度控制 (PWM) |
+| **PB0** | `GPIO_Output` | TB6612 BIN1 | 右輪方向控制 |
+| **PB1** | `GPIO_Output` | TB6612 BIN2 | 右輪方向控制 |
+| **PC2** | `TRACK_LEFT` (GPIO_Input) | 左 TCRT OUT | 左紅外線循跡輸入 |
+| **PC3** | `TRACK_RIGHT` (GPIO_Input)| 右 TCRT OUT | 右紅外線循跡輸入 |
