@@ -36,7 +36,7 @@
 # - 開發環境 -
   兩輪自平衡車的開發採用以下內容：
 * **配置工具**：STM32CubeMX ── 用於視覺化配置系統時鐘、GPIO、I2C 與 Timer。
-* **整合開發環境**：Keil uVision5  ── 用於編寫 PID 、馬達控制、姿態感測器、紅外線循跡、編譯與硬體模擬。
+* **整合開發環境**：Keil uVision5  ── 用於編寫 PID 、馬達控制、姿態感測器、紅外線循跡以及編譯。
 * **程式庫**：STM32Cube Firmware Package for L4 Series (HAL 庫) 
 * **硬體燒錄器**：ST-LINK V2 / V3
 
