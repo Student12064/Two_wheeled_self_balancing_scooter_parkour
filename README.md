@@ -36,3 +36,17 @@
 | **PB1** | `GPIO_Output` | TB6612 BIN2 | 右輪方向控制 |
 | **PC2** | `TRACK_LEFT` (GPIO_Input) | 左 TCRT OUT | 左紅外線循跡輸入 |
 | **PC3** | `TRACK_RIGHT` (GPIO_Input)| 右 TCRT OUT | 右紅外線循跡輸入 |
+
+
+```mermaid
+graph TD
+    %% 能源分配
+    Power[5. 能源分配 MB102 + 18650] -->|5V 電源| IMU
+    Power -->|5V 電源| Track
+    Power -->|3.3V/5V 電源| MCU[1. 控制大腦 STM32L452RETx]
+    Power -->|7.4V-8.4V & 5V| Drive
+
+    %% 訊號流向
+    IMU[2. 姿態感知 MPU-6050] -->|姿態數據 I2C| MCU
+    Track[4. 環境偵測 TCRT5000 x2] -->|數位訊號 GPIO| MCU
+    MCU -->|PWM & 邏輯訊號| Drive[3. 動力驅動 TB6612FNG]
