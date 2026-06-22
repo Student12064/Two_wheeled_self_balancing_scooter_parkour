@@ -3,7 +3,7 @@
 
 
 # 系統架構
-  ##硬體架構
+  ## 硬體架構
   <img width="1707" height="952" alt="架構圖" src="./System Architecture/流程圖.png" />
   
   ## 軟體架構
