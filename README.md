@@ -3,4 +3,5 @@
 
 
 # -系統架構
-Hardware/圖片1.png
+<img width="1707" height="952" alt="圖片1" src="https://github.com/user-attachments/assets/255a280f-8998-45bc-be8d-04a6be77b8f3" />
+
