@@ -6,7 +6,7 @@
   ### 硬體架構
   <img width="1707" height="952" alt="硬體架構圖" src="./System Architecture/硬體架構圖.png" />
   
-  ### 軟體架構
+  ### 控制架構
   <img width="1707" height="952" alt="流程圖" src="./System Architecture/流程圖.png" />
   
 # -
