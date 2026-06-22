@@ -32,3 +32,5 @@
 | **PB1** | `GPIO_Output` | TB6612 BIN2 | 右輪方向控制 |
 | **PC2** | `TRACK_LEFT` (GPIO_Input) | 左 TCRT OUT | 左紅外線循跡輸入 |
 | **PC3** | `TRACK_RIGHT` (GPIO_Input)| 右 TCRT OUT | 右紅外線循跡輸入 |
+
+*** 1
