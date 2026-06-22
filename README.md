@@ -1,5 +1,5 @@
 # - 兩輪自平衡車 -
- ### 基於STM32L452RET6微控制器開發，實現了自平衡、速度控制功能的兩輪自平衡車
+  基於STM32L452RET6微控制器開發，實現了自平衡、速度控制功能的兩輪自平衡車
  <img width="1707" height="952" alt="圖片" src="./Picture/Picture1.png" />
 
 # - 系統架構 -
@@ -33,4 +33,10 @@
 | **PC2** | `TRACK_LEFT` (GPIO_Input) | 左 TCRT OUT | 左紅外線循跡輸入 |
 | **PC3** | `TRACK_RIGHT` (GPIO_Input)| 右 TCRT OUT | 右紅外線循跡輸入 |
 
+# - 開發環境 -
+  本專案之韌體開發採用官方推薦的經典組合：
+* **組態配置工具**：STM32CubeMX (v6.x 或以上) ── 用於視覺化配置系統時鐘、GPIO、I2C 與 定時器（Timer）。
+* **整合開發環境 (IDE)**：Keil uVision5 (MDK-ARM v5) ── 用於核心 PID 演算法編寫、編譯與硬體模擬。
+* **編譯器韌體庫**：STM32Cube Firmware Package for L4 Series (HAL 庫)
+* **硬體燒錄器**：ST-LINK V2 / V3 (或 J-Link)
 # - 成果 -
