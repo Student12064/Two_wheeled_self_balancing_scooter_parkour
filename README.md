@@ -1,13 +1,13 @@
 # - 兩輪自平衡車 -
   基於STM32L452RET6微控制器開發，實現了自平衡、速度控制功能的兩輪自平衡車
- <img width="522" height="603" alt="圖片" src="./Picture/Picture1.png" />
+ <img width="522" height="603" src="./Picture/Picture1.png" />
 
 # - 系統架構 -
   ### 硬體架構
   <img width="1707" height="952" src="./System Architecture/硬體架構圖.png" />
   
   ### 控制架構
-  <img width="1380" height="568" alt="流程圖" src="./System Architecture/流程圖.png" />
+  <img width="1380" height="568" src="./System Architecture/流程圖.png" />
   
 # - 硬體清單 -
  | 元件名稱 | 型號/規格 | 數量 | 主要用途說明 |
