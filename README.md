@@ -1,6 +1,6 @@
 # - 兩輪自平衡車 -
   基於STM32L452RET6微控制器開發，實現了自平衡、速度控制功能的兩輪自平衡車
- <img width="522" height="603" src="./Picture/Picture1.png" />
+ <img width="522" height="603" src="./Picture/Picture1.jpg" />
 
 # - 系統架構 -
   ### 硬體架構
