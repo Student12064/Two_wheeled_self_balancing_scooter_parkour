@@ -7,7 +7,7 @@
   <img width="1707" height="952" alt="硬體架構圖" src="./System Architecture/硬體架構圖.png" />
   
   ### 控制架構
-  <img width="1707" height="952" alt="流程圖" src="./System Architecture/流程圖.png" />
+  <img width="1380" height="568" alt="流程圖" src="./System Architecture/流程圖.png" />
   
 # - 硬體清單 -
  | 元件名稱 | 型號/規格 | 數量 | 主要用途說明 |
