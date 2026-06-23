@@ -40,4 +40,7 @@
 * **程式庫**：STM32Cube Firmware Package for L4 Series (HAL 庫) 
 * **硬體燒錄器**：ST-LINK V2 / V3
 
-# - 實體圖 -
+# - 實驗結果 -
+<img width="2652" height="2162" src="./Picture/Picture2.jpg" />
+<img width="2589" height="2139" src="./Picture/Picture3.jpg" />
+
